@@ -1,0 +1,74 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #fff, #fff 50%,
+    #fff 50%, #fff 100%
+    );
+}
+
+.cardD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.cardD .imgBoxD {
+    position: relative;
+    min-width: 600px;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cardD .imgBoxD img {
+    width: 100%;
+}
+
+.cardD .detalles {
+    position: relative;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+    
+}
+
+.cardD .detalles::-webkit-scrollbar {
+    width: 7px;
+    }
+
+.cardD .detalles::-webkit-scrollbar-thumb {
+    background: #000;
+    }
+
+ .box {
+    background-color: red;
+}
+
+ #agregandoIngrediente {
+    display: flex;
+} 
+
+.loaderIng {
+    display: none;
+  }
+  
